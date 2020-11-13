@@ -1,0 +1,535 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+                              /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (exit)
+/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                              /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o) (_global_impure_ptr)
+/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+                              /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (__libc_init_array)
+/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+                              /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (memset)
+/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                              /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o) (__call_exitprocs)
+/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+                              /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o) (atexit)
+/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+                              /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                              /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+                              /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o) (__register_exitproc)
+/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+                              /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___env_recursive_mutex
+                    0x1               /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+buffer              0xa               main.o
+__lock___at_quick_exit_mutex
+                    0x1               /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MAIN_FLASH       0x0000000000000000 0x0000000000040000 xr
+INFO_FLASH       0x0000000000200000 0x0000000000004000 xr
+SRAM_CODE        0x0000000001000000 0x0000000000010000 xrw
+SRAM_DATA        0x0000000020000000 0x0000000000010000 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+LOAD main.o
+LOAD memory.o
+LOAD startup_msp432p401r_gcc.o
+LOAD system_msp432p401r.o
+LOAD interrupts_msp432p401r_gcc.o
+START GROUP
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a
+END GROUP
+START GROUP
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a
+END GROUP
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+LOAD /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+                0x0000000000000000                PROVIDE (_intvecs_base_address, DEFINED (_intvecs_base_address)?_intvecs_base_address:0x0)
+
+.intvecs        0x0000000000000000      0x140
+ *(.intvecs)
+ .intvecs       0x0000000000000000      0x140 startup_msp432p401r_gcc.o
+                0x0000000000000000                interruptVectors
+                0x0000000000200000                PROVIDE (_mailbox_base_address, 0x200000)
+
+.flashMailbox
+ *(.flashMailbox)
+                0x0000000000201000                PROVIDE (_tlv_base_address, 0x201000)
+
+.tlvTable
+ *(.tlvTable)
+                0x0000000000202000                PROVIDE (_bsl_base_address, 0x202000)
+
+.bslArea
+ *(.bslArea)
+                0x0000000020000000                PROVIDE (_vtable_base_address, DEFINED (_vtable_base_address)?_vtable_base_address:0x20000000)
+
+.vtable
+ *(.vtable)
+
+.text           0x0000000000000140      0x910
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ .text          0x0000000000000140        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .text          0x0000000000000140       0x6c /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .text          0x00000000000001ac       0x74 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+                0x00000000000001ac                _mainCRTStartup
+                0x00000000000001ac                _start
+ .text          0x0000000000000220       0xb4 main.o
+                0x0000000000000220                main
+ .text          0x00000000000002d4       0xb0 memory.o
+                0x00000000000002d4                set_value
+                0x00000000000002f8                clear_value
+                0x0000000000000314                get_value
+                0x0000000000000332                set_all
+                0x0000000000000368                clear_all
+ .text          0x0000000000000384        0x0 startup_msp432p401r_gcc.o
+ .text          0x0000000000000384      0x370 system_msp432p401r.o
+                0x0000000000000384                SystemCoreClockUpdate
+                0x0000000000000674                SystemInit
+ .text          0x00000000000006f4        0x0 interrupts_msp432p401r_gcc.o
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .text          0x00000000000006f4        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.text.*)
+ .text.exit     0x00000000000006f4       0x20 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+                0x00000000000006f4                exit
+ .text.__libc_init_array
+                0x0000000000000714       0x50 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+                0x0000000000000714                __libc_init_array
+ .text.memset   0x0000000000000764       0x9c /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+                0x0000000000000764                memset
+ .text.startup.register_fini
+                0x0000000000000800       0x14 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000000814       0xe8 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x0000000000000814                __call_exitprocs
+ .text.atexit   0x00000000000008fc        0xc /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+                0x00000000000008fc                atexit
+ .text.__libc_fini_array
+                0x0000000000000908       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+                0x0000000000000908                __libc_fini_array
+ .text.__retarget_lock_init
+                0x000000000000093c        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x000000000000093c                __retarget_lock_init
+ .text.__retarget_lock_init_recursive
+                0x0000000000000940        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000000940                __retarget_lock_init_recursive
+ .text.__retarget_lock_close
+                0x0000000000000944        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000000944                __retarget_lock_close
+ .text.__retarget_lock_close_recursive
+                0x0000000000000948        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000000948                __retarget_lock_close_recursive
+ .text.__retarget_lock_acquire
+                0x000000000000094c        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x000000000000094c                __retarget_lock_acquire
+ .text.__retarget_lock_acquire_recursive
+                0x0000000000000950        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000000950                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_try_acquire
+                0x0000000000000954        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000000954                __retarget_lock_try_acquire
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000958        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000000958                __retarget_lock_try_acquire_recursive
+ .text.__retarget_lock_release
+                0x000000000000095c        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x000000000000095c                __retarget_lock_release
+ .text.__retarget_lock_release_recursive
+                0x0000000000000960        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000000960                __retarget_lock_release_recursive
+ .text.__register_exitproc
+                0x0000000000000964       0xc4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+                0x0000000000000964                __register_exitproc
+ .text._exit    0x0000000000000a28        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+                0x0000000000000a28                _exit
+                0x0000000000000a2c                . = ALIGN (0x4)
+ *(.ctors)
+                0x0000000000000a2c                . = ALIGN (0x4)
+ *(.dtors)
+                0x0000000000000a2c                . = ALIGN (0x4)
+                0x0000000000000a2c                __init_array_start = .
+ *(.init_array*)
+ .init_array    0x0000000000000a2c        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .init_array.00000
+                0x0000000000000a30        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x0000000000000a34                __init_array_end = .
+ *(.init)
+ .init          0x0000000000000a34        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x0000000000000a34                _init
+ .init          0x0000000000000a38        0x8 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.fini*)
+ .fini          0x0000000000000a40        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x0000000000000a40                _fini
+ .fini_array    0x0000000000000a44        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .fini          0x0000000000000a48        0x8 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+
+.glue_7         0x0000000000000a50        0x0
+ .glue_7        0x0000000000000a50        0x0 linker stubs
+
+.glue_7t        0x0000000000000a50        0x0
+ .glue_7t       0x0000000000000a50        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000a50        0x0
+ .vfp11_veneer  0x0000000000000a50        0x0 linker stubs
+
+.v4_bx          0x0000000000000a50        0x0
+ .v4_bx         0x0000000000000a50        0x0 linker stubs
+
+.iplt           0x0000000000000a50        0x0
+ .iplt          0x0000000000000a50        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+
+.text:Reset_Handler
+                0x0000000000000a50       0x6c
+ .text:Reset_Handler
+                0x0000000000000a50       0x6c interrupts_msp432p401r_gcc.o
+                0x0000000000000a50                Reset_Handler
+
+.text:NMI_Handler
+                0x0000000000000abc        0xe
+ .text:NMI_Handler
+                0x0000000000000abc        0xe interrupts_msp432p401r_gcc.o
+                0x0000000000000abc                NMI_Handler
+
+.text:HardFault_Handler
+                0x0000000000000aca        0xe
+ .text:HardFault_Handler
+                0x0000000000000aca        0xe interrupts_msp432p401r_gcc.o
+                0x0000000000000aca                HardFault_Handler
+
+.text:Default_Handler
+                0x0000000000000ad8        0xe
+ .text:Default_Handler
+                0x0000000000000ad8        0xe interrupts_msp432p401r_gcc.o
+                0x0000000000000ad8                CS_IRQHandler
+                0x0000000000000ad8                DebugMon_Handler
+                0x0000000000000ad8                AES256_IRQHandler
+                0x0000000000000ad8                SysTick_Handler
+                0x0000000000000ad8                PendSV_Handler
+                0x0000000000000ad8                RTC_C_IRQHandler
+                0x0000000000000ad8                PORT1_IRQHandler
+                0x0000000000000ad8                FPU_IRQHandler
+                0x0000000000000ad8                PORT2_IRQHandler
+                0x0000000000000ad8                TA3_0_IRQHandler
+                0x0000000000000ad8                UsageFault_Handler
+                0x0000000000000ad8                DMA_INT3_IRQHandler
+                0x0000000000000ad8                TA2_0_IRQHandler
+                0x0000000000000ad8                DMA_INT1_IRQHandler
+                0x0000000000000ad8                WDT_A_IRQHandler
+                0x0000000000000ad8                TA2_N_IRQHandler
+                0x0000000000000ad8                TA1_0_IRQHandler
+                0x0000000000000ad8                PSS_IRQHandler
+                0x0000000000000ad8                DMA_INT2_IRQHandler
+                0x0000000000000ad8                EUSCIA3_IRQHandler
+                0x0000000000000ad8                DMA_INT0_IRQHandler
+                0x0000000000000ad8                PORT4_IRQHandler
+                0x0000000000000ad8                PORT5_IRQHandler
+                0x0000000000000ad8                EUSCIB0_IRQHandler
+                0x0000000000000ad8                Default_Handler
+                0x0000000000000ad8                T32_INTC_IRQHandler
+                0x0000000000000ad8                TA3_N_IRQHandler
+                0x0000000000000ad8                TA0_0_IRQHandler
+                0x0000000000000ad8                EUSCIA2_IRQHandler
+                0x0000000000000ad8                PORT6_IRQHandler
+                0x0000000000000ad8                PORT3_IRQHandler
+                0x0000000000000ad8                MemManage_Handler
+                0x0000000000000ad8                SVC_Handler
+                0x0000000000000ad8                TA1_N_IRQHandler
+                0x0000000000000ad8                EUSCIA1_IRQHandler
+                0x0000000000000ad8                COMP_E1_IRQHandler
+                0x0000000000000ad8                EUSCIB2_IRQHandler
+                0x0000000000000ad8                FLCTL_IRQHandler
+                0x0000000000000ad8                EUSCIB3_IRQHandler
+                0x0000000000000ad8                T32_INT1_IRQHandler
+                0x0000000000000ad8                DMA_ERR_IRQHandler
+                0x0000000000000ad8                ADC14_IRQHandler
+                0x0000000000000ad8                EUSCIA0_IRQHandler
+                0x0000000000000ad8                BusFault_Handler
+                0x0000000000000ad8                PCM_IRQHandler
+                0x0000000000000ad8                TA0_N_IRQHandler
+                0x0000000000000ad8                COMP_E0_IRQHandler
+                0x0000000000000ad8                EUSCIB1_IRQHandler
+                0x0000000000000ad8                T32_INT2_IRQHandler
+
+.rodata         0x0000000000000ae8        0x4
+ *(.rodata)
+ *(.rodata.*)
+ .rodata._global_impure_ptr
+                0x0000000000000ae8        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                0x0000000000000ae8                _global_impure_ptr
+
+.eh_frame       0x0000000000000aec        0x4
+ .eh_frame      0x0000000000000aec        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .eh_frame      0x0000000000000aec        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+
+.ARM.exidx      0x0000000000000af0        0x8
+                0x0000000000000af0                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000000000000af0        0x8 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+                0x0000000000000af8                __exidx_end = .
+
+.ARM.extab      0x0000000000000af8        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x0000000000000af8        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+                0x0000000000000af8                __etext = .
+
+.rel.dyn        0x0000000000000af8        0x0
+ .rel.iplt      0x0000000000000af8        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+
+.data           0x0000000020000000      0x43c load address 0x0000000000000af8
+                0x0000000000000af8                __data_load__ = LOADADDR (.data)
+                0x0000000020000000                __data_start__ = .
+ *(.data)
+ .data          0x0000000020000000        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .data          0x0000000020000000        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                0x0000000020000000                __dso_handle
+ .data          0x0000000020000004        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .data          0x0000000020000004        0x0 main.o
+ .data          0x0000000020000004        0x0 memory.o
+ .data          0x0000000020000004        0x0 startup_msp432p401r_gcc.o
+ .data          0x0000000020000004        0x4 system_msp432p401r.o
+                0x0000000020000004                SystemCoreClock
+ .data          0x0000000020000008        0x0 interrupts_msp432p401r_gcc.o
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.data*)
+ .data._impure_ptr
+                0x0000000020000008        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                0x0000000020000008                _impure_ptr
+ *fill*         0x000000002000000c        0x4 
+ .data.impure_data
+                0x0000000020000010      0x428 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .data.__atexit_recursive_mutex
+                0x0000000020000438        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x0000000020000438                __atexit_recursive_mutex
+                0x000000002000043c                . = ALIGN (0x4)
+                0x000000002000043c                __data_end__ = .
+
+.jcr            0x000000002000043c        0x4 load address 0x0000000000000f34
+ .jcr           0x000000002000043c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .jcr           0x000000002000043c        0x4 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+
+.igot.plt       0x0000000020000440        0x0 load address 0x0000000000000f38
+ .igot.plt      0x0000000020000440        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+
+.bss            0x0000000020000440       0x4c
+                0x0000000020000440                __bss_start__ = .
+ *(.shbss)
+ *(.bss)
+ .bss           0x0000000020000440        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .bss           0x0000000020000440       0x1c /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .bss           0x000000002000045c        0x0 main.o
+ .bss           0x000000002000045c        0x0 memory.o
+ .bss           0x000000002000045c        0x0 startup_msp432p401r_gcc.o
+ .bss           0x000000002000045c        0x0 system_msp432p401r.o
+ .bss           0x000000002000045c        0x0 interrupts_msp432p401r_gcc.o
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .bss           0x000000002000045c        0x0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ *(.bss.*)
+ *(COMMON)
+ COMMON         0x000000002000045c        0xa main.o
+                0x000000002000045c                buffer
+ *fill*         0x0000000020000466        0x2 
+ COMMON         0x0000000020000468       0x21 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000020000468                __lock___atexit_recursive_mutex
+                0x000000002000046c                __lock___arc4random_mutex
+                0x0000000020000470                __lock___env_recursive_mutex
+                0x0000000020000474                __lock___sinit_recursive_mutex
+                0x0000000020000478                __lock___malloc_recursive_mutex
+                0x000000002000047c                __lock___at_quick_exit_mutex
+                0x0000000020000480                __lock___dd_hash_mutex
+                0x0000000020000484                __lock___tz_mutex
+                0x0000000020000488                __lock___sfp_recursive_mutex
+                0x000000002000048c                . = ALIGN (0x4)
+ *fill*         0x0000000020000489        0x3 
+                0x000000002000048c                __bss_end__ = .
+
+.heap           0x000000002000048c        0x0
+                0x000000002000048c                __heap_start__ = .
+                0x000000002000048c                end = __heap_start__
+                0x000000002000048c                _end = end
+                0x000000002000048c                __end = end
+ *(.heap)
+                0x000000002000048c                __heap_end__ = .
+                0x000000002000048c                __HeapLimit = __heap_end__
+
+.stack          0x0000000020000490        0x0
+                0x0000000020000490                _stack = .
+                0x0000000020000490                __stack = .
+ *(.stack)
+OUTPUT(c1m2.out elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .ARM.attributes
+                0x0000000000000022       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .ARM.attributes
+                0x0000000000000056       0x20 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .ARM.attributes
+                0x0000000000000076       0x39 main.o
+ .ARM.attributes
+                0x00000000000000af       0x39 memory.o
+ .ARM.attributes
+                0x00000000000000e8       0x39 startup_msp432p401r_gcc.o
+ .ARM.attributes
+                0x0000000000000121       0x39 system_msp432p401r.o
+ .ARM.attributes
+                0x000000000000015a       0x39 interrupts_msp432p401r_gcc.o
+ .ARM.attributes
+                0x0000000000000193       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000000001c7       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000000001fb       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x000000000000022f       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000263       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000000000000297       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000000000002cb       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000000000002ff       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000000000000333       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000000000000367       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x000000000000039b       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .ARM.attributes
+                0x00000000000003cf       0x22 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+
+.comment        0x0000000000000000       0x7f
+ .comment       0x0000000000000000       0x7f main.o
+                                         0x80 (size before relaxing)
+ .comment       0x000000000000007f       0x80 memory.o
+ .comment       0x000000000000007f       0x80 startup_msp432p401r_gcc.o
+ .comment       0x000000000000007f       0x80 system_msp432p401r.o
+ .comment       0x000000000000007f       0x80 interrupts_msp432p401r_gcc.o
+
+.debug_info     0x0000000000000000     0x1143
+ .debug_info    0x0000000000000000      0x113 main.o
+ .debug_info    0x0000000000000113      0x15c memory.o
+ .debug_info    0x000000000000026f       0xb3 startup_msp432p401r_gcc.o
+ .debug_info    0x0000000000000322      0xd13 system_msp432p401r.o
+ .debug_info    0x0000000000001035      0x10e interrupts_msp432p401r_gcc.o
+
+.debug_abbrev   0x0000000000000000      0x378
+ .debug_abbrev  0x0000000000000000       0xbb main.o
+ .debug_abbrev  0x00000000000000bb       0xa3 memory.o
+ .debug_abbrev  0x000000000000015e       0x6d startup_msp432p401r_gcc.o
+ .debug_abbrev  0x00000000000001cb      0x11b system_msp432p401r.o
+ .debug_abbrev  0x00000000000002e6       0x92 interrupts_msp432p401r_gcc.o
+
+.debug_aranges  0x0000000000000000       0xb0
+ .debug_aranges
+                0x0000000000000000       0x20 main.o
+ .debug_aranges
+                0x0000000000000020       0x20 memory.o
+ .debug_aranges
+                0x0000000000000040       0x18 startup_msp432p401r_gcc.o
+ .debug_aranges
+                0x0000000000000058       0x20 system_msp432p401r.o
+ .debug_aranges
+                0x0000000000000078       0x38 interrupts_msp432p401r_gcc.o
+
+.debug_line     0x0000000000000000      0x57d
+ .debug_line    0x0000000000000000      0x143 main.o
+ .debug_line    0x0000000000000143       0x57 memory.o
+ .debug_line    0x000000000000019a       0xe3 startup_msp432p401r_gcc.o
+ .debug_line    0x000000000000027d      0x1be system_msp432p401r.o
+ .debug_line    0x000000000000043b      0x142 interrupts_msp432p401r_gcc.o
+
+.debug_str      0x0000000000000000      0xb41
+ .debug_str     0x0000000000000000      0x16a main.o
+                                        0x1ba (size before relaxing)
+ .debug_str     0x000000000000016a       0x46 memory.o
+                                        0x12a (size before relaxing)
+ .debug_str     0x00000000000001b0       0x2b startup_msp432p401r_gcc.o
+                                        0x198 (size before relaxing)
+ .debug_str     0x00000000000001db      0x8d0 system_msp432p401r.o
+                                        0xa97 (size before relaxing)
+ .debug_str     0x0000000000000aab       0x96 interrupts_msp432p401r_gcc.o
+                                        0x1fa (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x434
+ .debug_frame   0x0000000000000000       0x34 main.o
+ .debug_frame   0x0000000000000034       0xcc memory.o
+ .debug_frame   0x0000000000000100       0x58 system_msp432p401r.o
+ .debug_frame   0x0000000000000158       0xa0 interrupts_msp432p401r_gcc.o
+ .debug_frame   0x00000000000001f8       0x28 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000220       0x2c /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+ .debug_frame   0x000000000000024c       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000280       0x5c /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000000000002dc       0x20 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .debug_frame   0x00000000000002fc       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000330       0xb0 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ .debug_frame   0x00000000000003e0       0x34 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000414       0x20 /opt/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
+
+.debug_ranges   0x0000000000000000       0x28
+ .debug_ranges  0x0000000000000000       0x28 interrupts_msp432p401r_gcc.o
