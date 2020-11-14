@@ -1,54 +1,55 @@
-/******************************************************************************
- * Copyright (C) 2017 by Alex Fosdick - University of Colorado
- *
- * Redistribution, modification or use of this software in source or binary
- * forms is permitted as long as the files maintain this copyright. Users are 
- * permitted to modify this and use it to learn about the field of embedded
- * software. Alex Fosdick and the University of Colorado are not liable for any
- * misuse of this material. 
- *
- *****************************************************************************/
 /**
- * @file main.c
- * @brief Main entry point to the C1M2 Assessment
+ * @file data.c
+ * @brief Performs simple data manipulation
  *
- * This file contains the main code for the C1M2 assesment. Students
- * are not to change any of the code, they are instead supposed to compile
- * these files with their makefile.
- *
- * @author Alex Fosdick
- * @date April 1 2017
- *
+ * @author Hussein HAMADI
+ * @date November 13 2020
  */
-#include "platform.h"
+
+#include "data.h"
 #include "memory.h"
 
-#define MAX_LENGTH (10)
-char buffer[MAX_LENGTH];
+uint8_t my_itoa(int32_t data, uint8_t * ptr, uint32_t base){
+	int length = 0;
+	int digit;
+	int is_neg = -1;
+	int i;
+	
+	if(data = 0){
+		*ptr = 48;
+		return length;
+	}
+	else if(data < 0){
+		is_neg = 1;
+		data *= -1;
+	}
 
-/* A pretty boring main file */
-int main(void) {
-  unsigned int i;
-  char value;
+	while(data != 0){
+		digit = num % base;
+		num /= base;
 
-  /* Code below does some arbitrary memory Reads & writes */
-  clear_all(buffer, MAX_LENGTH);
-  set_all( ( buffer + 8 ), 43, 2); 
-  set_value(buffer, 0, 0x61);
-  value = get_value(buffer, 9);
-  set_value(buffer, 9, (value + 0x27));
-  set_value(buffer, 3, 0x37);
-  set_value(buffer, 1, 88);
-  set_value(buffer, 4, '2');
-  value = get_value(buffer, 1);
-  set_value(buffer, 2, 121);
-  set_value(buffer, 7, (value - 12));
-  set_value(buffer, 5, 0x5F);
+		if(digit > 9){
+			*(ptr + length) = 55 + digit;
+		}
+		else{
+			*(ptr + length) = 48 + digit;
+		}
 
-  for ( i = 0; i < MAX_LENGTH; i++ ){
-    PRINTF("%c", buffer[i]);
-  }
-  PRINTF("\n");
-  return 0;
+		length++;
+	}
+
+	/* Add Null terminator */
+	*(ptr + length) = '\0'; 
+
+	if(is_neg){
+		my_memmove(ptr, ptr + 1, length);
+		*ptr = 45;
+		length++;
+	}
+
+	return length;
 }
 
+uint32_t my_atoi(uint8_t * ptr, uint8_t digits, uint32_t base){
+	
+}

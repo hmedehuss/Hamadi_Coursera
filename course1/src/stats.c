@@ -26,26 +26,12 @@
  *
  */
 
-
-
-#include <stdio.h>
 #include "stats.h"
+#include "platform.h"
 
+/* Size of the Data Set */
+#define SIZE (40)
 
-
-int  main()
-{
-
-	int test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
-			114, 88,   45,  76, 123,  87,  25,  23,
-			200, 122, 150, 90,   92,  87, 177, 244,
-			201,   6,  12,  60,   8,   2,   5,  67,
-			7,  87, 250, 230,  99,   3, 100,  90};
-
-
-	print_statistics(test,SIZE);
-	return 0;
-}
 
 
 
@@ -121,10 +107,13 @@ int find_median(int * ptr, int count)
 
 void print_array(int * ptr, int count)
 {
+	#ifdef VERBOSE
 	for(int i=0;i<count;i++)
 	{
-		printf("%d",ptr[i]);
+		PRINTF("%d",ptr[i]);
 	}
+	#endif
+
 }
 
 void print_statistics(int * ptr, int count)
@@ -133,8 +122,8 @@ void print_statistics(int * ptr, int count)
 	int max = find_maximum(ptr,count);
 	int medain = find_median(ptr,count);
 	int mean = find_mean(ptr,count);
-	printf("The minimum number of array = %d\n",min);
-	printf("The maximum number of array = %d\n",max);
-	printf("The median number of array = %d\n",medain);
-	printf("The mean number of array = %d\n",mean);
+	PRINTF("The minimum number of array = %d\n",min);
+	PRINTF("The maximum number of array = %d\n",max);
+	PRINTF("The median number of array = %d\n",medain);
+	PRINTF("The mean number of array = %d\n",mean);
 }
