@@ -10,105 +10,113 @@
 #*****************************************************************************
 
 #------------------------------------------------------------------------------
-# Simple make file for building system on two platforms :
-#       1)the host environment 
-#       2)the target embedded system MSP432
+# Simple make file to support two build platforms
 #
 # Use: make [TARGET] [PLATFORM-OVERRIDES]
 #
 # Build Targets:
-#      <FILE>.o - Builds <FILE>.o object file
-#      build - Builds and links all source files
-#      all - Same as build
-#      clean - removes all generated file
+#      <FILE>.o - Builds a <FILE>.o object file
+#      <FILE>.i - Builds a <FILE>.i preprocessed file
+#      <FILE>.asm - Dumps <FILE>.asm assembly file
+#      <FILE>.d - Builds <FILE>.d dependency file
+#      compile-all - Compiles all source files in project
+#      build - Builds all object files in project (links as well)
+#      clean - Removes all generated files
 #
 # Platform Overrides:
-#      PLATFORM - Target platform (HOST, MSP432)
+#      HOST - Default platform
+#      MSP342 - Target cross-compiled platform
+#
+# Author: Hussein HAMADI
+# Date:   November 13 2020
 #
 #------------------------------------------------------------------------------
 include sources.mk
 
 # Platform Overrides
-PLATFORM = MSP432
+PLATFORM = HOST
+VERBOSE = DISABLE
+COURSE = COURSE1
 
+# General flags for both platforms
+GEN_FLAGS = \
+	    -Wall \
+	    -Werror \
+	    -g \
+	    -O0 \
+	    -std=c99
 
-
-# Architectures Specific Flags
-LINKER_FILE = ../msp432p401r.lds
-CPU = cortex-m4
-ARCH= thumb
-M_ARCH = armv7e-m
-SPECS =  nosys.specs
-FPU = fpv4-sp-d16
-FLOAT_ABI = hard
-
-
-# General Flags 
-GFLAGS = -std=$(STD) -Wall -Werror -g -O0
-OBJDFLAGS = -S
-CPPFLAGs = -E 
-CCSIZEFLAGS = -Atd
-STD = c99
 TARGET = c1m2
 
-
-# Compiler Flags and Defines
-ifeq ($(PLATFORM),HOST)
-	CC = gcc
-	CCSIZE = size
-	LD = ld
-	OBJDUMP = objdump
-	LDFLAGS = -Wl,-Map=$(TARGET).map
-	CFLAGS = $(GFLAGS)
-	PLATFORM = HOST
-	SOURCES = $(HOST_SOURCES)
-	INCLUDES = $(HOST_INCLUDES)
-else
-	CC = arm-none-eabi-gcc
-	CCSIZE = arm-none-eabi-size
-	LD = arm-none-eabi-ld
-	OBJDUMP = arm-none-eabi-objdump
-	LDFLAGS =  -Wl,-Map=$(TARGET).map -T $(LINKER_FILE)
-
-	CFLAGS =  $(GFLAGS) -mcpu=$(CPU) -m$(ARCH) -march=$(M_ARCH) --specs=$(SPECS) -mfpu=$(FPU) -mfloat-abi=$(FLOAT_ABI) 
-	PLATFORM = MSP432
-  	SOURCES = $(MSP432_SOURCES)
-  	INCLUDES = $(MSP432_INCLUDES)
+ifeq ($(VERBOSE), ENABLE)
+	CPPFLAGS += -DVERBOSE
 endif
 
+ifeq ($(COURSE), COURSE1)
+	CPPFLAGS += -DCOURSE1
+endif
 
-OBJECTS = $(SOURCES:.c=.o)
-PREPRSD = $(SOURCES:.c=.i)
-ASSMS = $(SOURCES:.c=.asm)
+ifeq ($(PLATFORM), MSP432)
+	# Architectures Specific Flags
+	LINKER_FILE = -T msp432p401r.lds 
+	CPU = cortex-m4
+	ARCH = armv7e-m
+	SPECS = nosys.specs
+	EXTRA = -mthumb \
+		-mfloat-abi=hard \
+		-mfpu=fpv4-sp-d16
 
-# Generate the object file for all c-source files (but do not link) by 
+	# Compiler Flags and Defines
+	CC = arm-none-eabi-gcc
+	LD = arm-none-eabi-ld
+	CFLAGS = $(GEN_FLAGS) $(EXTRA) -mcpu=$(CPU) -march=$(ARCH) --specs=$(SPECS)
+	LDFLAGS = -Wl,-Map=$(TARGET).map -T -L ../ $(LINKER_FILE)
+	CPPFLAGS = -DMSP432 $(INCLUDES)
 
-# specifying the object file you want to compile
+	# Architecture specific source codes
+	SRCS += \
+		 interrupts_msp432p401r_gcc.c \
+		 startup_msp432p401r_gcc.c \
+		 system_msp432p401r.c \
+	
+	SIZE = arm-none-eabi-size
 
-%.o : %.c
-	$(CC) -c $^ $(CFLAGS) -D$(PLATFORM) $(INCLUDES)  -o $@
+else
+	# Complier Flags and Defines
+	CC = gcc
+	CFLAGS = $(GEN_FLAGS)
+	CPPFLAGS = -DHOST $(INCLUDES)
+	LDFLAGS = -Wl,-Map=$(TARGET).map
+	SIZE = size
+endif
 
-# Generate the preprocessed output of all c-program implementation files
+OBJS = $(SRCS:.c=.o)
+DEPS = $(SRCS:.c=.d)
+ASMS = $(SRCS:.c=.asm)
+PREP = $(SRCS:.c=.i)
 
-%.i : %.c
-	$(CC) -E -D$(PLATFORM) $< $(CFLAGS) $(INCLUDES) -o $@
-# Generate assembly output of c-program implementation files and the final output executable
+%.o: %.c
+	$(CC) -c $< $(CFLAGS) $(CPPFLAGS) -o $@
 
-%.asm : %.c
-	$(CC) -S -D$(PLATFORM) $< $(CFLAGS) $(INCLUDES) $(LDFLAGS) -o $@
-	$(OBJDUMP) -S -D$(PLATFORM) $< $(CFLAGS) $(INCLUDES) $(LDFLAGS) -o $@
+%.asm: %.c
+	$(CC) -S $< $(CFLAGS) $(CPPFLAGS) -o $@
 
+%.i: %.c
+	$(CC) -E $< $(CPPFLAGS) -o $@
+
+%.d: %.c
+	$(CC) -E -M $< $(CPPFLAGS) -o $@
 
 .PHONY: compile-all
-compile-all: $(OBJECTS)
+compile-all: $(OBJS)
 
-.PHONY: build
-build: all
+.PHONY: Build
+build: $(TARGET).out
 
-.PHONY: all
-all: $(TARGET).out
-$(TARGET).out: $(OBJECTS)
-	$(CC) $^ $(CFLAGS) $(LDFLAGS) -D$(PLATFORM) $(INCLUDES) -o $@ 
-.PHONY: clean
+$(TARGET).out: $(OBJS)
+	$(CC) $(OBJS) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -o $@
+	$(SIZE) $@
+
+.PHONY: Clean
 clean:
-	rm -f $(OBJECTS) $(TARGET).out $(TARGET).map $(PREPRSD) $(ASSMS)
+	rm -f $(OBJS) $(DEPS) $(ASMS) $(PREP) $(TARGET).out $(TARGET).map

@@ -8,21 +8,16 @@
 # misuse of this material. 
 #
 #*****************************************************************************
+# Author- Hussein HAMADI
+# Date:   November 13 2020
+# Source Paths
+SRCS =  main.c \
+	data.c \
+	course1.c \
+	memory.c \
+	stats.c
 
-
-# Add your Source files to this variable
-HOST_SOURCES = main.c \
-			   memory.c
-
-MSP432_SOURCES = main.c \
-				 memory.c \
-				 startup_msp432p401r_gcc.c \
-				 system_msp432p401r.c \
-				 interrupts_msp432p401r_gcc.c
-
-# Add your include paths to this variable
-HOST_INCLUDES =  -I../include/common
-
-MSP432_INCLUDES = -I../include/common \
-				  -I../include/CMSIS \
-				  -I../include/msp432
+# Include Paths
+INCLUDES = -I ../include/common \
+	   -I ../include/CMSIS \
+	   -I ../include/msp432 
