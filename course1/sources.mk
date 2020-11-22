@@ -8,16 +8,28 @@
 # misuse of this material. 
 #
 #*****************************************************************************
-# Author- Hussein HAMADI
-# Date:   November 13 2020
-# Source Paths
-SRCS =  main.c \
-	data.c \
-	course1.c \
-	memory.c \
-	stats.c
 
-# Include Paths
-INCLUDES = -I ../include/common \
-	   -I ../include/CMSIS \
-	   -I ../include/msp432 
+# Source files for cross compile, target MSP432
+SOURCES = ./src/main.c				\
+	  ./src/data.c				\
+	  ./src/stats.c				\
+	  ./src/memory.c			\
+	  ./src/course1.c			\
+	  ./src/system_msp432p401r.c		\
+	  ./src/startup_msp432p401r_gcc.c	\
+	  ./src/interrupts_msp432p401r_gcc.c
+
+# Source files for native compile, target HOST
+SRCS_HOST = ./src/main.c	\
+	    ./src/data.c	\
+	    ./src/stats.c	\
+	    ./src/memory.c	\
+	    ./src/course1.c 
+
+# Include paths for cross compile, target MSP432
+INCLUDES = -I./include/CMSIS	\
+	   -I./include/common	\
+	   -I./include/msp432	\
+
+# Include paths for native compile, target HOST
+INC_HOST = -I./include/common

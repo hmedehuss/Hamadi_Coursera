@@ -12,8 +12,8 @@
  * @file course1.c 
  * @brief This file is to be used to course 1 final assessment.
  *
- * @author Hussein HAMADI
- * @date November 13 2020
+ * @author Alex Fosdick
+ * @date April 2, 2017
  *
  */
 
@@ -30,7 +30,7 @@ int8_t test_data1() {
   uint32_t digits;
   int32_t value;
 
-  PRINTF("\ntest_data1();\n");
+  PRINTF("\ntest_data1():\n");
   ptr = (uint8_t*) reserve_words( DATA_SET_SIZE_W );
 
   if (! ptr )
@@ -129,7 +129,7 @@ int8_t test_memmove2() {
   uint8_t * ptra;
   uint8_t * ptrb;
 
-  PRINTF("test_memmove2() -OVERLAP END OF SRC BEGINNING OF DST\n");
+  PRINTF("test_memmove2() - OVERLAP END OF SRC BEGINNING OF DST\n");
   set = (uint8_t*) reserve_words(MEM_SET_SIZE_W);
 
   if (! set )
@@ -167,7 +167,7 @@ int8_t test_memmove3() {
   uint8_t * ptra;
   uint8_t * ptrb;
 
-  PRINTF("test_memove3() - OVERLAP END OF DEST BEGINNING OF SRC\n");
+  PRINTF("test_memmove3() - OVERLAP END OF DEST BEGINNING OF SRC\n");
   set = (uint8_t*)reserve_words( MEM_SET_SIZE_W);
 
   if (! set ) 

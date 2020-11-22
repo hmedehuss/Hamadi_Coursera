@@ -9,116 +9,105 @@
  *
  *****************************************************************************/
 /**
- * @file stats.h
- * @brief header file of the first assessments
+ * @file stats.h 
+ * @brief Function declarations and documentation for stats.c
  *
- * A header file of the first assessments that contain prototypes of functions:
- *     -print_statistics
- *     -print_array
- *     -find_median
- *     -find_mean
- * 	   -find_maximum
- *     -find_minimum
- *     -sort_array
+ * print_statistics()	- gven an array and length, 
+ * 			- prints minimum, maximum, mean and median of the array
+ * print_array()	- given an array and length, prints array to the screen
+ * find_median()	- given an array and length, returns the median value
+ * find_mean()		- given an array and length, returns the mean
+ * find_maximum()	- given an array and length, returns the maximum
+ * find_minimum()	- given an array and length, returns the minimum
+ * sort_array()		- given an array and length, sorts largest to smallest
  *
  * @author Hussein HAMADI
- * @date 6-11-2020
+ * @date 22 October 2020
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Size of the Data Set */
-#define SIZE (40)
+/**
+ * @brief Prints the statistics of an array.
+ *
+ * This functions prints the minimum, maximum, mean and median values
+ * from a given array of unsigned char data items.
+ *
+ * @param array Pointer to an n-element data array.
+ * @param size Size of the array.
+ * @return none
+ */
+void print_statistics(unsigned char *array, unsigned int size);
 
- /******************************************************************************
- * Function: print_statistics
- * Description:
- *     This function prints the statistics of an array including minimum, maximum, mean, and median.
- * Parameters:
- *     int * ptr: Pointer to a data set
- *     int count: Number of items in data set
- * Return:
- *     void
- *****************************************************************************/
+/**
+ * @brief Prints a given array to the screen.
+ *
+ * The array consists of unsigned char data.
+ *
+ * @param array Pointer to an n-element data array.
+ * @param size Size of the array.
+ * @return none.
+ */
+void print_array(unsigned char *array, unsigned int size);
+
+/**
+ * @brief Given an array of data and a length, returns the median value.
+ *
+ * The array consists of unsigned char data.
+ *
+ * @param array Pointer to an n-element data array.
+ * @param size Size of the array.
+ * @return Median value in unsigned char type.
+ */
+unsigned char find_median(unsigned char *array, unsigned int size);
+
+/**
+ * @brief Given an array of data and a length, returns the mean.
+ *
+ * The array consists of unsigned char data
+ *
+ * @param array Pointer to an n-element data array.
+ * @param size Size of the array.
+ * @return Mean value in unsigned char type.
+ */
+unsigned char find_mean(unsigned char *array, unsigned int size);
+
+/**
+ * @brief Given an array of data and a length, returns the maximum.
+ *
+ * The array consists of unsigned char data.
+ *
+ * @param array Pointer to an n-element data array.
+ * @param size Size of the array.
+ * @return Maximum value in unsigned char type.
+ */
+unsigned char find_maximum(unsigned char *array, unsigned int size);
+
+/**
+ * @brief Given an array of data and a length, returns the minimum.
+ *
+ * The array consists of unsigned char data.
+ *
+ * @param array Pointer to an n-element data array.
+ * @param size Size of the array.
+ * @return Minimum value in unsigned char type.
+ */
+unsigned char find_minimum(unsigned char *array, unsigned int size);
+
+/**
+ * @brief Given an array of data and a length, sorts the array.
+ *
+ * The array consists of unsigned char data.
+ *
+ * Array is sorted from largest to smallest value.
+ * The zeroth element has the largest value.
+ * The last element (n-1) has the smallest value.
+ *
+ * @param array Pointer to an n-element data array.
+ * @param size Size of the array.
+ * @return none
+ */
+void sort_array(unsigned char *array, unsigned int size);
  
-void print_statistics(int * ptr, int count);
-
-/******************************************************************************
-* Function: print_array
-* Description:
-*     This function takes an array of data and a length, prints the array to the screen
-* Parameters:
-*     int * ptr: Pointer to a data set
-*     int count: Number of items in data set
-* Return:
-*     void
-*****************************************************************************/
-void print_array(int * ptr, int count);
-
-/******************************************************************************
-* Function: find_median
-* Description:
-*     This function takes an array of data and a length, returns the median value
-* Parameters:
-*     int * ptr: Pointer to a data set
-*     int count: Number of items in data set
-* Return:
-*     int median : the median value
-*****************************************************************************/
-int find_median(int * ptr, int count);
-
-/******************************************************************************
-* Function: find_mean
-* Description:
-*     This function takes an array of data and a length, returns the mean
-* Parameters:
-*     int * ptr: Pointer to a data set
-*     int count: Number of items in data set
-* Return:
-*     int mean : the mean value
-*****************************************************************************/
-int find_mean(int * ptr, int count);
-
-/******************************************************************************
-* Function: find_maximum
-* Description:
-*     This function takes an array of data and a length, returns the maximum value
-* Parameters:
-*     int * ptr: Pointer to a data set
-*     int count: Number of items in data set
-* Return:
-*     int max : the maximum value
-*****************************************************************************/
-
-int find_maximum(int * ptr, int count);
- 
-/******************************************************************************
-* Function: find_minimum
-* Description:
-*     This function takes an array of data and a length, returns the minimum value
-* Parameters:
-*     int * ptr: Pointer to a data set
-*     int count: Number of items in data set
-* Return:
-*     int min : the minimum value
-*****************************************************************************/
-
-int find_minimum(int * ptr, int count);
-
-/******************************************************************************
-* Function: sort_array
-* Description:
-*     an array of data and a length, sorts the array from largest to smallest.
-*     (The zeroth Element should be the largest value, and the last element (n-1) should be the smallest value. )
-* Parameters:
-*     int * ptr: Pointer to a data set
-*     int count: Number of items in data set
-* Return:
-*     void
-*****************************************************************************/
-
-void sort_array(int * ptr, int count);
-
-
 #endif /* __STATS_H__ */

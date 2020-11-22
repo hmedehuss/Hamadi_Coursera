@@ -10,26 +10,28 @@
  *****************************************************************************/
 /**
  * @file main.c
- * @brief Main entry point to the C1M2 Assessment
+ * @brief Main entry point to the Course1 Final Assessment
  *
- * This file contains the main code for the C1M2 assesment. Students
- * are not to change any of the code, they are instead supposed to compile
- * these files with their makefile.
+ * This file contains the main code for the Course1 Final assesment.
  *
- * @author Hussein HAMADI
- * @date November 13 2020
+ * @author Alex Fosdick
+ * @date April 1 2017
  *
  */
+#include "platform.h"
+
+#if defined (COURSE1)
 #include "course1.h"
-
-
-/* A pretty simple main file */
-int main(void) {
-
-#ifdef COURSE1
-  course1();
 #endif
 
+int main(void) {
+	
+#if defined (COURSE1)
+  course1();
+#else
+  PRINTF("Please compile with COURSE=<OPTION> and PLATFORM=<OPTION>\n\
+for correct course and platform e.g. COURSE=COURSE1 PLATFORM=HOST.\n"); 
+#endif
 
   return 0;
 }
